@@ -6,7 +6,7 @@ sub Main()
     if reg.Exists("primaryfeed") then
         url = reg.Read("primaryfeed")
     else
-        url = "https://raw.githubusercontent.com/FledsonChagas/IPTV/main/TV_Aberta.m3u"
+        url = "https://raw.githubusercontent.com/FledsonChagas/IPTV/main/IPTV_Lista_Full_BR.m3u"
     end if
 
     screen = CreateObject("roSGScreen")
